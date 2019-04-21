@@ -144,13 +144,7 @@
     <script>
       const url = "roms/Pitfall.bin";
 
-      fetch('https://javatari.org?ROM=https://gamesarchive.org/Pitfall.rom')
-        .then(res=> res.body)  
-      .then(res=> {
-            console.log('res:', res)
-
-        })
-        Javatari.CARTRIDGE_URL = url;
+        Javatari.CARTRIDGE_URL = 'https://github.com/jeffersondesouza/emulador-atari/test/roms/Pitfall.bin';
     </script>
   </body>
 </html>
